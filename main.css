@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: darkslateblue;
+}
+
+.contenedor {
+  width: 100%;
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+
+.parallax {
+  position: absolute;
+  background-image: url('https://www.anahuac.mx/mexico/sites/default/files/styles/webp/public/noticias/Que-mas-hay-en-nuestro-universo.jpg.webp?itok=ma_TBWtY');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  z-index: -1;
+}
+
+.titulo {
+  color: grey;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+span {
+  color: rgba(103, 161, 41, 0.669) !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3.1rem;
+}
+
+p {
+  margin: auto 20px;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #4455d7;
+}
+
+h1, code {
+  color: #0f084395;
+  font-size: 2.1em;
+  text-align: center;
+  margin-top: 10px;
+}
+
